@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="script" href="part1.js">
+</head>
+<body>
+    <h2>How long does it take your computer to load?</h2>
+    <h3>Enter a number within the textbar, depending how small or large the number is 
+        the faster/slower your computer is to load the number.
+        Count the seconds until the number is finished generating and this determines the loading speed when you visit 
+        a synchronous-based website.
+    </h3>
+    <label for="quota">Enter Number:</label>
+    <input type="text" id="quota" name="quota" value="1000000" />
+    
+    <button id="generate">Generate Number</button>
+    <button id="reload">Reload</button>
+    
+    <div id="output"></div>
+
+<h2> Now lets test your speed with an asynchronous-based application.
+</h2>
+    <button id="xhr">Click to generate</button>
+<button id="reload">Reload</button>
+
+<pre readonly class="event-log"></pre>
+    
+
+
+
+
+
+    <script type= "text/javascript" src="part1.js"></script>
+</body>
+</html>
